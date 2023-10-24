@@ -9,7 +9,7 @@ package json
 import "github.com/bytedance/sonic"
 
 var (
-	json = sonic.ConfigStd
+	json = sonic.ConfigDefault
 	// Marshal is exported by gin/json package.
 	Marshal = json.Marshal
 	// Unmarshal is exported by gin/json package.
